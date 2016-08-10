@@ -3,6 +3,9 @@
  *  index.html styling
  */
 
+@text-main: #C5CFD3;
+@text-sub: #7E9DAB;
+
 html, body {
   background-color: #154B62;
 
@@ -13,6 +16,7 @@ html, body {
 
 .container.padded {
   padding-top: 10%;
+  text-align: center;
 }
 
 .info {
@@ -24,30 +28,30 @@ html, body {
 }
 
 h1 {
-  color: #C5CFD3;
+  color: @text-main;
   letter-spacing: 4px;
 }
 
 h2 {
-  color: #7E9DAB;
+  color: @text-sub;
   font-weight: 300;
   letter-spacing: 3px;
 }
 
 h3 {
-  color: #C5CFD3;
+  color: @text-main;
   margin-left: -15px;
 }
 
 h4 {
-  color: #7E9DAB;
+  color: @text-sub;
   margin-left: -15px;
 }
 
 .social a {
-  color: inherit;
+  color: @text-main;
 }
 
 .social .fa {
-  margin-right: 10px;
+  margin-right: 20px;
 }
